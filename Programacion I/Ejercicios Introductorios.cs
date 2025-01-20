@@ -98,6 +98,7 @@ int d = (num5 / 10) % 10;
 int u = num5 % 10;
 int posMayor = (c >= d && c >= u) ? 1 : (d >= c && d >= u) ? 2 : 3;
 Console.WriteLine($"El dígito mayor está en la posición {posMayor}");
+
 // 6. Leer un número entero de tres dígitos y determinar si algún dígito es múltiplo de los otros.
 
 Console.WriteLine("");
@@ -162,7 +163,6 @@ for (int i = 1; i <= 3; i++)
         }
     } while (!esValido);
 }
-
 
 // 8. Leer un número entero de cinco dígitos y determinar si es un número Capicúa.
 
