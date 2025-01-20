@@ -1,0 +1,14 @@
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\bin\Debug\net9.0\Programacion I.exe
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\bin\Debug\net9.0\Programacion I.deps.json
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\bin\Debug\net9.0\Programacion I.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\bin\Debug\net9.0\Programacion I.dll
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\bin\Debug\net9.0\Programacion I.pdb
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\Programacion I.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\Programacion I.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\Programacion I.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\Programacion I.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\Programacion I.dll
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\refint\Programacion I.dll
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\Programacion I.pdb
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\Programacion I.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\pepe\Programacion I\obj\Debug\net9.0\ref\Programacion I.dll
