@@ -130,20 +130,39 @@ else
 // 7. Leer tres números enteros y determinar cuál es el mayor. Usar solamente dos variables.
 
 Console.WriteLine("");
-Console.WriteLine("Ejercicio 7");
-Console.Write("Ingresa tres números enteros: ");
-int mayor = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ejercicio 7: Determinar el mayor de tres números enteros");
 
-for (int i = 0; i < 2; i++)
+int mayor = int.MinValue;
+int numero;
+
+for (int i = 1; i <= 3; i++)
 {
-    int num = Convert.ToInt32(Console.ReadLine());
-    if (num > mayor)
+    bool esValido;
+    do
     {
-        mayor = num;
-    }
+        Console.Write($"Ingrese el número {i} (entero): ");
+        string? entrada = Console.ReadLine();
+        esValido = int.TryParse(entrada, out numero);
+        
+        if (!esValido)
+        {
+            Console.WriteLine("Error: Ingrese un número entero válido.");
+        }
+        else if (numero < int.MinValue || numero > int.MaxValue)
+        {
+            Console.WriteLine("Error: El número está fuera del rango permitido.");
+            esValido = false;
+        }
+        else
+        {
+            if (numero > mayor)
+            {
+                mayor = numero;
+            }
+        }
+    } while (!esValido);
 }
 
-Console.WriteLine($"El número mayor es: {mayor}");
 
 // 8. Leer un número entero de cinco dígitos y determinar si es un número Capicúa.
 
