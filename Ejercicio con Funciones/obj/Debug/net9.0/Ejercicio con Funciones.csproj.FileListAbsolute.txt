@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\bin\Debug\net9.0\Ejercicio con Funciones.exe
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\bin\Debug\net9.0\Ejercicio con Funciones.deps.json
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\bin\Debug\net9.0\Ejercicio con Funciones.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\bin\Debug\net9.0\Ejercicio con Funciones.dll
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\bin\Debug\net9.0\Ejercicio con Funciones.pdb
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.dll
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\refint\Ejercicio con Funciones.dll
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.pdb
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\Ejercicio con Funciones.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\Popy\Ejercicio con Funciones\obj\Debug\net9.0\ref\Ejercicio con Funciones.dll
