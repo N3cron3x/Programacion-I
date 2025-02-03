@@ -86,7 +86,14 @@ public class ConcreteStrategyB : IStrategy
 
 public class Context
 {
-    private IStrategy strategy;
+    private IStrategy strategy = new ConcreteStrategyA(); // Se inicializa con un valor predeterminado
+    
+    public Context() { }
+    
+    public Context(IStrategy strategy)
+    {
+        this.strategy = strategy;
+    }
     
     public void SetStrategy(IStrategy strategy)
     {
@@ -99,7 +106,7 @@ public class Context
     }
 }
 
-// Implementación en la función Main para probar los patrones de diseño. */
+// Implementación en la función Main para probar los patrones de diseño.
 
 class Program
 {
@@ -120,7 +127,6 @@ class Program
         // Strategy
         Console.WriteLine("--- Strategy ---");
         Context context = new Context();
-        context.SetStrategy(new ConcreteStrategyA());
         context.ExecuteStrategy();
         context.SetStrategy(new ConcreteStrategyB());
         context.ExecuteStrategy();
