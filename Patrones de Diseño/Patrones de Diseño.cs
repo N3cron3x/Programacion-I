@@ -1,5 +1,5 @@
 ﻿// Patrón de Diseño Creacional Prototype. Permite clonar objetos en lugar de crear nuevas instancias desde cero.
-
+// La clase Prototype define la interfaz de clonación y ConcretePrototype implementa la clonación real.
 public abstract class Prototype
 {
     public abstract Prototype Clone();
