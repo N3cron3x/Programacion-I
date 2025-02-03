@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\bin\Debug\net9.0\Patrones de Diseño.exe
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\bin\Debug\net9.0\Patrones de Diseño.deps.json
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\bin\Debug\net9.0\Patrones de Diseño.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\bin\Debug\net9.0\Patrones de Diseño.dll
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\bin\Debug\net9.0\Patrones de Diseño.pdb
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.dll
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\refint\Patrones de Diseño.dll
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.pdb
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\Patrones de Diseño.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\Popy\Patrones de Diseño\obj\Debug\net9.0\ref\Patrones de Diseño.dll
