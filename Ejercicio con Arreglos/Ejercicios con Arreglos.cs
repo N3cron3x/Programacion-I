@@ -86,6 +86,7 @@
         Console.WriteLine("Factoriales: " + string.Join(", ", factoriales.Select(f => f == -1 ? "Overflow" : f.ToString())));
 
         // 10. Determinar divisores exactos de un número ingresado
+        Console.WriteLine("");
         Console.WriteLine("Ingrese un número para verificar sus divisores exactos en el arreglo:");
         string? inputNum = Console.ReadLine();
         int numDiv;
