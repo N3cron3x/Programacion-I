@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones de Diseño", "Patr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio con Arreglos", "Ejercicio con Arreglos\Ejercicio con Arreglos.csproj", "{AE79D1A4-9003-4F00-8B1A-7B3C61C13358}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto POO", "Proyecto POO\Proyecto POO.csproj", "{9053E19C-A1E7-4484-A601-15D87D04E8AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{AE79D1A4-9003-4F00-8B1A-7B3C61C13358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE79D1A4-9003-4F00-8B1A-7B3C61C13358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE79D1A4-9003-4F00-8B1A-7B3C61C13358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9053E19C-A1E7-4484-A601-15D87D04E8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9053E19C-A1E7-4484-A601-15D87D04E8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9053E19C-A1E7-4484-A601-15D87D04E8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9053E19C-A1E7-4484-A601-15D87D04E8AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
