@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\bin\Debug\net9.0\Proyecto POO.exe
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\bin\Debug\net9.0\Proyecto POO.deps.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\bin\Debug\net9.0\Proyecto POO.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\bin\Debug\net9.0\Proyecto POO.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\bin\Debug\net9.0\Proyecto POO.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\refint\Proyecto POO.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\Proyecto POO.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto POO\obj\Debug\net9.0\ref\Proyecto POO.dll
