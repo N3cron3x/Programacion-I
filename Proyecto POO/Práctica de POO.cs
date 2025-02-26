@@ -1,42 +1,41 @@
-﻿class Motor
+﻿using System;
+
+class Motor
 {
-    private int litros_de_aceite;
+    // Atributos privados
+    private int litrosDeAceite;
     private int potencia;
 
+    // Constructor
     public Motor(int potencia)
     {
         this.potencia = potencia;
-        this.litros_de_aceite = 0;
+        this.litrosDeAceite = 0;
     }
 
-    public int GetLitrosDeAceite()
+    // Getters y Setters
+    public int LitrosDeAceite
     {
-        return litros_de_aceite;
+        get { return litrosDeAceite; }
+        set { litrosDeAceite = value; }
     }
 
-    public void SetLitrosDeAceite(int litros)
+    public int Potencia
     {
-        this.litros_de_aceite = litros;
-    }
-
-    public int GetPotencia()
-    {
-        return potencia;
-    }
-
-    public void SetPotencia(int potencia)
-    {
-        this.potencia = potencia;
+        get { return potencia; }
+        set { potencia = value; }
     }
 }
 
 class Coche
 {
+    // Atributos privados
     private Motor motor;
     private string marca;
     private string modelo;
     private double precioAverias;
 
+    // Constructor
     public Coche(string marca, string modelo)
     {
         this.marca = marca;
@@ -45,26 +44,28 @@ class Coche
         this.motor = new Motor(100); // Potencia por defecto
     }
 
-    public Motor GetMotor()
+    // Getters
+    public Motor Motor
     {
-        return motor;
+        get { return motor; }
     }
 
-    public string GetMarca()
+    public string Marca
     {
-        return marca;
+        get { return marca; }
     }
 
-    public string GetModelo()
+    public string Modelo
     {
-        return modelo;
+        get { return modelo; }
     }
 
-    public double GetPrecioAverias()
+    public double PrecioAverias
     {
-        return precioAverias;
+        get { return precioAverias; }
     }
 
+    // Método para acumular averías
     public void AcumularAveria(double importe)
     {
         precioAverias += importe;
@@ -73,66 +74,75 @@ class Coche
 
 class Garaje
 {
-    private Coche? coche; 
-    private string? averiaAsociada; 
+    // Atributos privados
+    private Coche? cocheEnTaller;
+    private string? averiaAsociada;
     private int cochesAtendidos;
 
+    // Constructor
     public Garaje()
     {
-        coche = null; 
+        cocheEnTaller = null;
         averiaAsociada = null;
         cochesAtendidos = 0;
     }
 
+    
     public bool AceptarCoche(Coche coche, string averia)
     {
-        if (this.coche != null)
+        if (cocheEnTaller != null)
         {
-            return false; 
+            return false; // No se puede aceptar otro coche si ya hay uno en el taller
         }
 
-        this.coche = coche;
-        this.averiaAsociada = averia;
+        cocheEnTaller = coche;
+        averiaAsociada = averia;
         cochesAtendidos++;
         return true;
     }
 
-    public Coche? DevolverCoche() 
+        public Coche? DevolverCoche()
     {
-        Coche? cocheDevuelto = this.coche;
-        this.coche = null;
-        this.averiaAsociada = null;
+        Coche? cocheDevuelto = cocheEnTaller;
+        cocheEnTaller = null;
+        averiaAsociada = null;
         return cocheDevuelto;
     }
 
-    public int GetCochesAtendidos()
+    // Getter para el número de coches atendidos
+    public int CochesAtendidos
     {
-        return cochesAtendidos;
+        get { return cochesAtendidos; }
     }
 }
+
 class PracticaPOO
 {
     static void Main(string[] args)
     {
+        // Crear un garaje
         Garaje garaje = new Garaje();
+
+        // Crear 2 coches
         Coche coche1 = new Coche("Toyota", "Corolla");
         Coche coche2 = new Coche("Honda", "Civic");
 
+        // Atender los coches en el garaje
         Random random = new Random();
 
-        // Coche 1 entra al garaje
+        // Coche 1 entra al garaje por primera vez
         if (garaje.AceptarCoche(coche1, "aceite"))
         {
             double importeAveria = random.NextDouble() * 100;
             coche1.AcumularAveria(importeAveria);
-            if (garaje.GetCochesAtendidos() == 1)
+            if (garaje.CochesAtendidos == 1)
             {
-                coche1.GetMotor().SetLitrosDeAceite(coche1.GetMotor().GetLitrosDeAceite() + 10);
+                coche1.Motor.LitrosDeAceite += 10; // Incrementar litros de aceite
             }
             garaje.DevolverCoche();
         }
 
-        // Coche 2 entra al garaje
+        // Coche 2 entra al garaje por primera vez
         if (garaje.AceptarCoche(coche2, "frenos"))
         {
             double importeAveria = random.NextDouble() * 100;
@@ -141,36 +151,36 @@ class PracticaPOO
         }
 
         // Coche 1 entra al garaje por segunda vez
-        if (garaje.AceptarCoche(coche1, "aceite"))
+        if (garaje.AceptarCoche(coche1, "motor"))
         {
             double importeAveria = random.NextDouble() * 100;
             coche1.AcumularAveria(importeAveria);
-            if (garaje.GetCochesAtendidos() == 3)
-            {
-                coche1.GetMotor().SetLitrosDeAceite(coche1.GetMotor().GetLitrosDeAceite() + 10);
-            }
             garaje.DevolverCoche();
         }
 
         // Coche 2 entra al garaje por segunda vez
-        if (garaje.AceptarCoche(coche2, "motor"))
+        if (garaje.AceptarCoche(coche2, "aceite"))
         {
             double importeAveria = random.NextDouble() * 100;
             coche2.AcumularAveria(importeAveria);
+            if (garaje.CochesAtendidos == 4)
+            {
+                coche2.Motor.LitrosDeAceite += 10; // Incrementar litros de aceite
+            }
             garaje.DevolverCoche();
         }
 
         // Mostrar información de los coches
         Console.WriteLine("Información del Coche 1:");
-        Console.WriteLine($"Marca: {coche1.GetMarca()}, Modelo: {coche1.GetModelo()}");
-        Console.WriteLine($"Precio acumulado de averías: {coche1.GetPrecioAverias():C}");
-        Console.WriteLine($"Litros de aceite: {coche1.GetMotor().GetLitrosDeAceite()}");
-        Console.WriteLine($"Potencia del motor: {coche1.GetMotor().GetPotencia()}");
+        Console.WriteLine($"Marca: {coche1.Marca}, Modelo: {coche1.Modelo}");
+        Console.WriteLine($"Precio acumulado de averías: {coche1.PrecioAverias:C}");
+        Console.WriteLine($"Litros de aceite: {coche1.Motor.LitrosDeAceite}");
+        Console.WriteLine($"Potencia del motor: {coche1.Motor.Potencia}");
 
         Console.WriteLine("\nInformación del Coche 2:");
-        Console.WriteLine($"Marca: {coche2.GetMarca()}, Modelo: {coche2.GetModelo()}");
-        Console.WriteLine($"Precio acumulado de averías: {coche2.GetPrecioAverias():C}");
-        Console.WriteLine($"Litros de aceite: {coche2.GetMotor().GetLitrosDeAceite()}");
-        Console.WriteLine($"Potencia del motor: {coche2.GetMotor().GetPotencia()}");
+        Console.WriteLine($"Marca: {coche2.Marca}, Modelo: {coche2.Modelo}");
+        Console.WriteLine($"Precio acumulado de averías: {coche2.PrecioAverias:C}");
+        Console.WriteLine($"Litros de aceite: {coche2.Motor.LitrosDeAceite}");
+        Console.WriteLine($"Potencia del motor: {coche2.Motor.Potencia}");
     }
 }
