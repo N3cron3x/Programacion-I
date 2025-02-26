@@ -1,6 +1,4 @@
-﻿using System;
-
-class Motor
+﻿class Motor
 {
     // Atributos privados
     private int litrosDeAceite;
