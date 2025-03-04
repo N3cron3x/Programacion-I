@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\bin\Debug\net9.0\Herencia.exe
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\bin\Debug\net9.0\Herencia.deps.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\bin\Debug\net9.0\Herencia.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\bin\Debug\net9.0\Herencia.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\bin\Debug\net9.0\Herencia.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\refint\Herencia.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\Herencia.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Herencia\obj\Debug\net9.0\ref\Herencia.dll
