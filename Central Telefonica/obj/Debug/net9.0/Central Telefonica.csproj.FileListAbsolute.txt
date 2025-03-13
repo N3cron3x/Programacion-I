@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\Central Telefonica.exe
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\Central Telefonica.deps.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\Central Telefonica.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\Central Telefonica.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\Central Telefonica.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\refint\Central Telefonica.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\ref\Central Telefonica.dll
