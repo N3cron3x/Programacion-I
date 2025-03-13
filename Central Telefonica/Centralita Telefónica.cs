@@ -82,6 +82,7 @@
             Console.WriteLine("\nInforme de la Centralita:");
             Console.WriteLine($"Total de Llamadas: {contadorLlamadas}");
             Console.WriteLine($"Facturación Total: {acumuladoCostes:C}");
+            Console.WriteLine("");
         }
     }
 
@@ -91,7 +92,7 @@
         static void Main(string[] args)
         {
             Centralita centralita = new Centralita();
-
+            Console.WriteLine("");
             Console.WriteLine("Llamadas Recibidas:");
             centralita.RegistrarLlamada(new LlamadaLocal("8091234567", "8097654321", 120));
             centralita.RegistrarLlamada(new LlamadaProvincial("8291234567", "8097654321", 180, 1));
