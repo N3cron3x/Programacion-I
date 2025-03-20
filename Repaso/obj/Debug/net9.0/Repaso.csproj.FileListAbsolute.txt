@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\bin\Debug\net9.0\Repaso.exe
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\bin\Debug\net9.0\Repaso.deps.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\bin\Debug\net9.0\Repaso.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\bin\Debug\net9.0\Repaso.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\bin\Debug\net9.0\Repaso.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\refint\Repaso.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\Repaso.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Repaso\obj\Debug\net9.0\ref\Repaso.dll

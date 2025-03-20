@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfism
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central Telefonica", "Central Telefonica\Central Telefonica.csproj", "{397AD562-B48C-435F-9F1D-8CD0B484D915}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso", "Repaso\Repaso.csproj", "{FC15D1AD-A5A4-4C1D-AA0D-200152FBF8A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{397AD562-B48C-435F-9F1D-8CD0B484D915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{397AD562-B48C-435F-9F1D-8CD0B484D915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{397AD562-B48C-435F-9F1D-8CD0B484D915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC15D1AD-A5A4-4C1D-AA0D-200152FBF8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC15D1AD-A5A4-4C1D-AA0D-200152FBF8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC15D1AD-A5A4-4C1D-AA0D-200152FBF8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC15D1AD-A5A4-4C1D-AA0D-200152FBF8A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
