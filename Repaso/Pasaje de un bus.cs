@@ -32,17 +32,17 @@
 
     class AutobusPlatinum : Autobus
     {
-        public AutobusPlatinum() : base("AutoBus Platinum", 20, 5000) { }
+        public AutobusPlatinum() : base("Autobús Platinum", 20, 5000) { }
     }
 
     class AutobusGold : Autobus
     {
-        public AutobusGold() : base("AutoBus Gold", 15, 4000) { }
+        public AutobusGold() : base("Autobús Gold", 15, 4000) { }
     }
 
     class AutobusEconomico : Autobus
     {
-        public AutobusEconomico() : base("AutoBus Económico", 30, 2000) { }
+        public AutobusEconomico() : base("Autobús Económico", 30, 2000) { }
     }
 
     class Program
