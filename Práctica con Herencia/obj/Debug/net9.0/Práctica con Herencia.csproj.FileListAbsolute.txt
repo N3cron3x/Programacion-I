@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\bin\Debug\net9.0\Práctica con Herencia.exe
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\bin\Debug\net9.0\Práctica con Herencia.deps.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\bin\Debug\net9.0\Práctica con Herencia.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\bin\Debug\net9.0\Práctica con Herencia.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\bin\Debug\net9.0\Práctica con Herencia.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\refint\Práctica con Herencia.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\Práctica con Herencia.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Práctica con Herencia\obj\Debug\net9.0\ref\Práctica con Herencia.dll

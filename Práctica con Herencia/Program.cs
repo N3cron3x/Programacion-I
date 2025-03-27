@@ -6,7 +6,7 @@ public class Hamburguesa
     protected string TipoCarne { get; set; }
     protected decimal PrecioBase { get; set; }
     protected List<(string Ingrediente, decimal Precio)> IngredientesAdicionales { get; set; }
-    protected int MaxIngredientes { get; set; }
+    public int MaxIngredientes { get; protected set; } // Cambiado a public con set protegido
 
     // Constructor que inicializa la hamburguesa básica
     public Hamburguesa(string tipoPan, string tipoCarne, decimal precioBase)
@@ -109,81 +109,113 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("¡Bienvenido a Chimi MiBarriga del Sr. Billy Navaja!");
+        Console.WriteLine("¡Bienvenido a Chimi MiBarriga!");
         Console.WriteLine("-----------------------------------------------\n");
 
-        // Mostrar menú de opciones
-        Console.WriteLine("Seleccione el tipo de hamburguesa:");
-        Console.WriteLine("1. Hamburguesa Clásica");
-        Console.WriteLine("2. Hamburguesa Saludable");
-        Console.WriteLine("3. Hamburguesa Premium");
-        Console.Write("\nOpción: ");
+        Hamburguesa? hamburguesa = null; // Ahora es nullable
 
-        Hamburguesa hamburguesa = null;
-        int opcion = int.Parse(Console.ReadLine());
-
-        // Configurar la hamburguesa según la selección
-        switch (opcion)
+        while (hamburguesa == null)
         {
-            case 1:
-                hamburguesa = new Hamburguesa("Blanco", "Res", 5.00m);
-                break;
-            case 2:
-                hamburguesa = new HamburguesaSaludable("Pollo", 6.50m);
-                break;
-            case 3:
-                hamburguesa = new HamburguesaPremium("Angus", 8.00m);
-                hamburguesa.MostrarResumen();
-                return; // No necesita agregar ingredientes
-            default:
-                Console.WriteLine("Opción no válida");
-                return;
+            // Mostrar menú de opciones
+            Console.WriteLine("Seleccione el tipo de hamburguesa:");
+            Console.WriteLine("1. Hamburguesa Clásica");
+            Console.WriteLine("2. Hamburguesa Saludable");
+            Console.WriteLine("3. Hamburguesa Premium");
+            Console.Write("\nOpción: ");
+
+            string? input = Console.ReadLine();
+            if (string.IsNullOrEmpty(input))
+            {
+                Console.WriteLine("Por favor ingrese una opción válida.");
+                continue;
+            }
+
+            if (!int.TryParse(input, out int opcion))
+            {
+                Console.WriteLine("Por favor ingrese un número válido.");
+                continue;
+            }
+
+            // Configurar la hamburguesa según la selección
+            switch (opcion)
+            {
+                case 1:
+                    hamburguesa = new Hamburguesa("Blanco", "Res", 5.00m);
+                    break;
+                case 2:
+                    hamburguesa = new HamburguesaSaludable("Pollo", 6.50m);
+                    break;
+                case 3:
+                    hamburguesa = new HamburguesaPremium("Angus", 8.00m);
+                    hamburguesa.MostrarResumen();
+                    return; // No necesita agregar ingredientes
+                default:
+                    Console.WriteLine("Opción no válida. Por favor seleccione 1, 2 o 3.");
+                    break;
+            }
         }
 
-        Console.WriteLine("\n¿Desea agregar ingredientes adicionales? (S/N)");
-        if (Console.ReadLine().ToUpper() == "S")
+        if (hamburguesa.MaxIngredientes > 0)
         {
-            Console.WriteLine("\nIngredientes disponibles:");
-            Console.WriteLine("1. Lechuga (+$0.50)");
-            Console.WriteLine("2. Tomate (+$0.75)");
-            Console.WriteLine("3. Bacon (+$1.50)");
-            Console.WriteLine("4. Pepinillo (+$0.60)");
-            Console.WriteLine("5. Queso (+$1.00)");
-            Console.WriteLine("6. Cebolla (+$0.50)");
-            Console.WriteLine("0. Terminar\n");
+            Console.WriteLine("\n¿Desea agregar ingredientes adicionales? (S/N)");
+            string? respuesta = Console.ReadLine()?.ToUpper();
 
-            bool continuar = true;
-            while (continuar)
+            if (respuesta == "S")
             {
-                Console.Write("Seleccione un ingrediente (0 para terminar): ");
-                int ingrediente = int.Parse(Console.ReadLine());
+                Console.WriteLine("\nIngredientes disponibles:");
+                Console.WriteLine("1. Lechuga (+$0.50)");
+                Console.WriteLine("2. Tomate (+$0.75)");
+                Console.WriteLine("3. Bacon (+$1.50)");
+                Console.WriteLine("4. Pepinillo (+$0.60)");
+                Console.WriteLine("5. Queso (+$1.00)");
+                Console.WriteLine("6. Cebolla (+$0.50)");
+                Console.WriteLine("0. Terminar\n");
 
-                switch (ingrediente)
+                bool continuar = true;
+                while (continuar)
                 {
-                    case 0:
-                        continuar = false;
-                        break;
-                    case 1:
-                        hamburguesa.AgregarIngrediente("Lechuga", 0.50m);
-                        break;
-                    case 2:
-                        hamburguesa.AgregarIngrediente("Tomate", 0.75m);
-                        break;
-                    case 3:
-                        hamburguesa.AgregarIngrediente("Bacon", 1.50m);
-                        break;
-                    case 4:
-                        hamburguesa.AgregarIngrediente("Pepinillo", 0.60m);
-                        break;
-                    case 5:
-                        hamburguesa.AgregarIngrediente("Queso", 1.00m);
-                        break;
-                    case 6:
-                        hamburguesa.AgregarIngrediente("Cebolla", 0.50m);
-                        break;
-                    default:
-                        Console.WriteLine("Opción no válida");
-                        break;
+                    Console.Write("Seleccione un ingrediente (0 para terminar): ");
+                    string? ingredienteInput = Console.ReadLine();
+
+                    if (string.IsNullOrEmpty(ingredienteInput))
+                    {
+                        Console.WriteLine("Por favor ingrese una opción válida.");
+                        continue;
+                    }
+
+                    if (!int.TryParse(ingredienteInput, out int ingrediente))
+                    {
+                        Console.WriteLine("Por favor ingrese un número válido.");
+                        continue;
+                    }
+
+                    switch (ingrediente)
+                    {
+                        case 0:
+                            continuar = false;
+                            break;
+                        case 1:
+                            hamburguesa.AgregarIngrediente("Lechuga", 0.50m);
+                            break;
+                        case 2:
+                            hamburguesa.AgregarIngrediente("Tomate", 0.75m);
+                            break;
+                        case 3:
+                            hamburguesa.AgregarIngrediente("Bacon", 1.50m);
+                            break;
+                        case 4:
+                            hamburguesa.AgregarIngrediente("Pepinillo", 0.60m);
+                            break;
+                        case 5:
+                            hamburguesa.AgregarIngrediente("Queso", 1.00m);
+                            break;
+                        case 6:
+                            hamburguesa.AgregarIngrediente("Cebolla", 0.50m);
+                            break;
+                        default:
+                            Console.WriteLine("Opción no válida");
+                            break;
+                    }
                 }
             }
         }
