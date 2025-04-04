@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Práctica con Herencia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30a79dfbc34070f1490ddc9e651b0cef1fca714e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d105a596d355c7d872c5823d3f228224cb5ec85")]
 [assembly: System.Reflection.AssemblyProductAttribute("Práctica con Herencia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Práctica con Herencia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
