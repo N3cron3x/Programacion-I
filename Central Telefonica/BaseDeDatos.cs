@@ -5,7 +5,7 @@ public class MySQLInserter
 {
     private string connectionString = "Server=localhost;Database=centralitatel;User ID=root;Password=zoykape65;";
 
-    public void InsertLlamada(Llamada llamada)
+    public void InsertarLlamada(Llamada llamada)
     {
         using (MySqlConnection conn = new MySqlConnection(connectionString))
         {
@@ -13,12 +13,12 @@ public class MySQLInserter
             {
                 conn.Open();
 
-                string query = "INSERT INTO registro (NumOrigen, NumDestino, Duracion, Precio) VALUES (@NumOrigen, @NumDestino, @Duracion, @Precio)";
+                string query = "INSERT INTO registro (Num_Origen, Num_Destino, Duracion, Precio) VALUES (@Num_Origen, @Num_Destino, @Duracion, @Precio)";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@NumOrigen", llamada.NumOrigen);
-                    cmd.Parameters.AddWithValue("@NumDestino", llamada.NumDestino);
+                    cmd.Parameters.AddWithValue("@Num_Origen", llamada.NumOrigen);
+                    cmd.Parameters.AddWithValue("@Num_Destino", llamada.NumDestino);
                     cmd.Parameters.AddWithValue("@Duracion", llamada.Duracion);
                     cmd.Parameters.AddWithValue("@Precio", llamada.CalcularPrecio());
 

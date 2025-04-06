@@ -13,3 +13,8 @@ C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.
 C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.pdb
 C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.genruntimeconfig.cache
 C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\ref\Central Telefonica.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central Telefonica.csproj.AssemblyReference.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Central Telefonica\obj\Debug\net9.0\Central .57F80C78.Up2Date
