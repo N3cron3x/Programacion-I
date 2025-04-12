@@ -1,0 +1,15 @@
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\bin\Debug\net9.0\Proyecto Final.exe
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\bin\Debug\net9.0\Proyecto Final.deps.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\bin\Debug\net9.0\Proyecto Final.runtimeconfig.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\bin\Debug\net9.0\Proyecto Final.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\bin\Debug\net9.0\Proyecto Final.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.AssemblyInfoInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.AssemblyInfo.cs
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.csproj.CoreCompileInputs.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.sourcelink.json
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\refint\Proyecto Final.dll
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.pdb
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\Proyecto Final.genruntimeconfig.cache
+C:\Users\munoz\OneDrive\Documentos\UNIBE\Popy\Proyecto Final\obj\Debug\net9.0\ref\Proyecto Final.dll
