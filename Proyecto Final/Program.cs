@@ -1,10 +1,12 @@
 ﻿class Program
+
 {
     static Usuario? usuario = null;
     static GestorTareas? gestor = null;
 
     static void Main(string[] args)
-    {
+    {   
+        usuario = Persistencia.Cargar() ?? new Usuario("NombrePorDefecto");
         try
         {
             InicializarSistema();
