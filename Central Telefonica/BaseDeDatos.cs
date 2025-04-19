@@ -1,6 +1,3 @@
-using System;
-using MySqlConnector;
-
 public class MySQLInserter
 {
     private string connectionString = "Server=localhost;Database=centralitatel;User ID=root;Password=zoykape65;";
